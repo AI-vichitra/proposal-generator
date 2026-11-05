@@ -5,9 +5,8 @@
 // Set USE_LOCAL_DB = false to use Supabase Cloud backend
 const USE_LOCAL_DB = false;
 
-const SUPABASE_URL = 'https://bmhbjdtbvtvhexsvxojt.supabase.co';
-const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJtaGJqZHRidnR2aGV4c3Z4b2p0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MTI3NDQ0OCwiZXhwIjoyMTA2ODUwNDQ4fQ.cAGIfIQcyZZMRfi2OC_xfOuno4fcWcvBM-hPF1KV-6w';
-
+const SUPABASE_URL = 'https://knjywehplsopyimdlxql.supabase.co';
+const SUPABASE_ANON = 'sb_publishable_5lHCkruYTglzRWQkzlmOiA_Ae55SdaV'
 // ── Local Database Client (Simulates Supabase PostgREST API using localStorage)
 class LocalDatabase {
   constructor() {
